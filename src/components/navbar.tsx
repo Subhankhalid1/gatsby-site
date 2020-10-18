@@ -9,6 +9,8 @@ export default function Nav() {
 
     <Link to='/'>Home</Link>
 
+    <Link to='/product'>Product</Link>
+
     <Link to='/contact'>Contact</Link>
 
     <Link to='/about'>About</Link>
