@@ -7,7 +7,7 @@ export default function Home() {
 
     <h1>
 
-      Hello world!
+      Hello from homePage!
 
     </h1>
 

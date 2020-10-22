@@ -1,0 +1,32 @@
+.grid{
+    max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+  .grid > div {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: 12rem;
+    
+  }
+  @media (min-width: 600px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+
+  a:link {
+    text-decoration: none;
+    text-align: center;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}

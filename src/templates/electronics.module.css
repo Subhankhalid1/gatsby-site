@@ -1,0 +1,32 @@
+
+.phones{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding: 20px;
+    /* background: #f0e68c; */
+    /* border: solid 2px crimson; */
+    border-radius: 80px;
+    /* padding: 4px; */
+    transition: transform .2s
+
+}
+
+.phones:hover{
+    background-color: rgb(255, 243, 68);
+    border-radius: 80px;
+    transform: scale(1.5);
+}
+
+a:link, a:visited {
+    /* background-color: #f44336; */
+    color:seashell;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(247, 62, 62);
+  }
